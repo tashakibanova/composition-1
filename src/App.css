@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Светлый фон для приложения */
+}
+
+.card {
+  border: 1px solid #dee2e6; /* Граница карточки */
+  border-radius: 0.5rem; /* Закругление углов */
+  margin: 10px; /* Отступ между карточками */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+}
+
+.card-img-top {
+  border-top-left-radius: 0.5rem; /* Закругление верхних углов */
+  border-top-right-radius: 0.5rem;
+  width: 100%; /* Ширина изображения */
+  height: auto; /* Автоматическая высота */
+}
+
+.card-body {
+  padding: 15px; /* Отступ внутри карточки */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Размер заголовка */
+  margin-bottom: 10px; /* Отступ снизу заголовка */
+}
+
+.btn {
+  background-color: #007bff; /* Цвет кнопки */
+  color: white; /* Цвет текста кнопки */
+  border: none; /* Убираем границу */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  border-radius: 5px; /* Закругление углов кнопки */
+  cursor: pointer; /* Курсор при наведении */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Цвет кнопки при наведении */
+}
